@@ -153,6 +153,40 @@ html {
     font-size: 18px;
   }
 }
+@media only screen and (max-width: 768px) {
+  #home {
+    width: 930px;
+  }
+  .about-inner {
+    width: 850px;
+  }
+  #service {
+    width: 850px;
+  }
+  #skills .container {
+    width: 850px;
+  }
+  #works .column {
+    width: 800px;
+    margin: auto;
+  }
+  #contact .contact-inner {
+    width: 850px;
+  }
+  .footer {
+    width: 900px;
+  }
+  .footer .footer-info-heading {
+    width: 272px;
+    margin-left: -283px;
+  }
+  .social-icon {
+    margin-left: -283px;
+  }
+  .footer-inner p {
+    margin-left: -283px;
+  }
+}
 /* home section end */
 
 /* About section start */
@@ -568,7 +602,7 @@ textarea {
 /* footer section here */
 
 .footer {
-  width: 100%;
+  width: 100vhpx;
   background-color: black;
   height: 25%;
   margin: 0;
